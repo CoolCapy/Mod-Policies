@@ -1,0 +1,1485 @@
+ {
+  chromeMetadata: {
+    application: "Google Chrome",
+    platform: "14150.64.0 (Official Build) stable-channel octopus",
+    revision: "d142c0eb7c89135ff71431d54cb95c9fde6d2908-refs/branch-heads/4606@{#1379}",
+    version: "94.0.4606.104 (Official Build) (64-bit)"
+  },
+  chromePolicies: {
+    AllowDeletingBrowserHistory: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: true
+    },
+    AllowDinosaurEasterEgg: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: true
+    },
+    AllowKioskAppControlChromeVersion: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: false
+    },
+    AllowSyncXHRInPageDismissal: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: true
+    },
+    ArcBackupRestoreServiceEnabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: 0
+    },
+    ArcEnabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: false
+    },
+    ArcGoogleLocationServicesEnabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: 0
+    },
+    AssistantOnboardingMode: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: "Education"
+    },
+    AttestationEnabledForDevice: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    AttestationEnabledForUser: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: true
+    },
+    AttestationForContentProtectionEnabled: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    AudioOutputAllowed: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: true
+    },
+    CaptivePortalAuthenticationIgnoresProxy: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: false
+    },
+    CastReceiverEnabled: {
+      future: true,
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: false
+    },
+    CertificateTransparencyEnforcementDisabledForUrls: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: [
+        "brainpop.com",
+        "teacherspayteachers.com",
+        "gonoodle.com"
+      ]
+    },
+    ChromeOsLockOnIdleSuspend: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: true
+    },
+    ChromeOsMultiProfileUserBehavior: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: "not-allowed"
+    },
+    ChromeOsReleaseChannel: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: "stable-channel"
+    },
+    ChromeOsReleaseChannelDelegated: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: false
+    },
+    CloudReportingEnabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: true
+    },
+    DefaultGeolocationSetting: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: 1
+    },
+    DefaultImagesSetting: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: 1
+    },
+    DeveloperToolsAvailability: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: 2
+    },
+    DeveloperToolsDisabled: {
+      deprecated: true,
+      error: "Ignored because it was overridden by DeveloperToolsAvailability.",
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: true
+    },
+    DeviceAllowNewUsers: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: false
+    },
+    DeviceAutoUpdateDisabled: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: false
+    },
+    DeviceBlockDevmode: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    DeviceDataRoamingEnabled: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: false
+    },
+    DeviceEphemeralUsersEnabled: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: false
+    },
+    DeviceGuestModeEnabled: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: false
+    },
+    DeviceLocalAccounts: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: [
+        {
+          id: "aobjmfmhiahgejmaoifbjimojpfjcpia",
+          kiosk_app_id: "aobjmfmhiahgejmaoifbjimojpfjcpia",
+          type: 1
+        },
+        {
+          id: "omkghcboodpimaoimdkmigofhjcpmpeb",
+          kiosk_app_id: "omkghcboodpimaoimdkmigofhjcpmpeb",
+          type: 1
+        },
+        {
+          id: "hblfbmjdaalalhifaajnnodlkiloengc",
+          kiosk_app_id: "hblfbmjdaalalhifaajnnodlkiloengc",
+          type: 1
+        },
+        {
+          id: "clkkomjbdffnhhacgoclmaiagkjkmmpe",
+          kiosk_app_id: "clkkomjbdffnhhacgoclmaiagkjkmmpe",
+          type: 1
+        }
+      ]
+    },
+    DeviceLoginScreenAutoSelectCertificateForUrls: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: []
+    },
+    DeviceLoginScreenDomainAutoComplete: {
+      error: "Policy value is not valid.",
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: ""
+    },
+    DeviceLoginScreenInputMethods: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: []
+    },
+    DeviceLoginScreenLocales: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: []
+    },
+    DeviceMetricsReportingEnabled: {
+      info: "This policy cannot be set to \"True\" and be mandatory, therefore it was changed to recommended.,
+      level: "recommended",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    DeviceOpenNetworkConfiguration: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: "{\n   \"GlobalNetworkConfiguration\": {\n      \"AllowOnlyPolicyNetworksToAutoconnect\": false,\n      \"AllowOnlyPolicyNetworksToConnect\": false\n   },\n   \"NetworkConfigurations\": [ {\n      \"GUID\": \"{99910ddd-5871-4d2d-855f-49410d55c142}\",\n      \"Name\": \"StudentNet\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": true,\n         \"HiddenSSID\": false,\n         \"SSID\": \"StudentNet\",\n         \"Security\": \"None\"\n      }\n   } ]\n}\n
+    },
+    DevicePrinters: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: {
+        hash: "e0d123efc245d8fcb98672b629f2c452fc67eb64af34af6038c3cc0d9ed209ad",
+        url: "https://storage.googleapis.com/chromeos-mgmt/0gjdgxs37mgh3k/NativePrinter/ddb148a8-9bd3-4e0a-8227-b3f9908a9725"
+      }
+    },
+    DevicePrintersAccessMode: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: 1
+    },
+    DeviceShowUserNamesOnSignin: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    DeviceSystemWideTracingEnabled: {
+      level: "mandatory",
+      scope: "machine",
+      source: "sourceEnterpriseDefault",
+      value: false
+    },
+    DeviceTargetVersionPrefix: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: ""
+    },
+    DeviceUnaffiliatedCrostiniAllowed: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: false
+    },
+    DeviceUpdateAllowedConnectionTypes: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: [
+        "wifi",
+        "ethernet",
+        "cellular"
+      ]
+    },
+    DeviceUpdateHttpDownloadsEnabled: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    DeviceUpdateScatterFactor: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: 172800
+    },
+    DeviceUserAllowlist: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: "********"
+    },
+    DeviceWiFiFastTransitionEnabled: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    DnsOverHttpsMode: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: "off"
+    },
+    DriveDisabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: false
+    },
+    EasyUnlockAllowed: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: false
+    },
+    EmojiSuggestionEnabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: false
+    },
+    EnableSyncConsent: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: false
+    },
+    ExtensionInstallBlocklist: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: [
+        "gnnonmildniifcaldddkicihdmkmaccp",
+        "iclinnjcnpihmbogglkigdkhkeajbcck",
+        "mkccemimdjbojildcllapppfhphcfmkn",
+        "ogdlpmhglpejoiomcodnpjnfgcpmgale",
+        "aabchfpoaokbenfoikepjpdidacbiekf",
+        "aahkfjicefeopjkokkfncpfflcjkmpbi",
+        "aeikfaecgnphdhidkcajncffeepcngdf",
+        "aeoejeplfhhhjnjjjjohjeglpnoafafc",
+        "afhppeoclpbhpopnpnkooifpefoiolbd",
+        "agbjigegbnljeohceloimakfgmbflnbo",
+        "agcgfaoekimffjnonlefoobgliljhkii",
+        "aibogbmciiakhabihljhgcagbdnmcmgk",
+        "aigfcfiejnjclhfnhlcfcmhedggjipgk",
+        "ajjpkmcnbocgmmbheanojgfhghabhmmf",
+        "akaeoiliflbihgfgmnnlecdipbpkpjja",
+        "akdlpdccmgegdhcddempibomdkkiilpa",
+        "akppjcbfeablbdcamojaobpaibimdepd",
+        "alelbpkogpmnbjplnpjebkjjjicilfdc",
+        "alicknaonbojombmlmfieolbjklefdhb",
+        "amojccmdnkdlcjcplmkijeenigbhfbpd",
+        "andonoojdabjdcacpleahlnendaeecco",
+        "apkdfigphkbgdcpfkfmhdldlidpaeamf",
+        "bbohlinegjlacogbjchanihbiiboabcp",
+        "bbpiealmmbiefhppikadopbljoppcnoa",
+        "bcnbdbgfalpopholcfndjijokkffbjhb",
+        "bffcllnfdoihnefjhalnfanpcfplkdip",
+        "bgknmonfaiagnoanclgleipblceiimjg",
+        "bhchdcejhohfmigjafbampogmaanbfkg",
+        "bjjkmbkbhggaclclhhkahddjkfpbabcm",
+        "bkcoamcnfidhmclfphkajngiegffdegf",
+        "bllpaelopnfgfampngdhgolbpfdkpdem",
+        "blpggnmhmkhlijjnecmhaagepnacaoob",
+        "bmgacjpahaaljkjloloaiookebikigia",
+        "bmhhojfibombegcapammkidbblggihhe",
+        "bmljfeicmnnbffmggkiaegmjcjnojoal",
+        "bojibjbbkcbhnphdkdoiefnkapelhieb",
+        "boklmmpmdnlmbjjkoadodaapbodgbfhp",
+        "cagjcmaigncoldpaikfiekgplmnnbpnc",
+        "cbebjfiincbhaoehebkljpikpfolhiko",
+        "cbfpddfehhdpjpcehmgnkedcbkeblmoa",
+        "cblmcdbkofcfoneikekbedgjjfkndmcp",
+        "cdfkaloficjmdjbgmckaddgfcghgidei",
+        "cdpcjlkngbjmobjppajnbknpegdbnpbc",
+        "cechdibmaolglcdioefoikpknppdekpc",
+        "chbaaofhghpagpppenbbonafcbodpecc",
+        "chfdigebbepdmeelcfiefkklfldmmgld",
+        "cicmakamngbmbaplbcjkmkpcobagbplc",
+        "cjdoflmeipmjioaljeohakcnlolgoppo",
+        "cknnnoajjiclfpimkkdapmfmeealjhbb",
+        "ckpjobcmemfpfeaeolhhjkjdpfnkngnd",
+        "ckpnphbklbjicocknnehgajmhmgceebe",
+        "clddifkhlkcojbojppdojfeeikdkgiae",
+        "clgddkicplcbgjfobecebadodeggpghp",
+        "clhhggbfdinjmjhajaheehoeibfljjno",
+        "coafpihghiamjniiipemeooahkdhmpcm",
+        "cohmkcfhincjlpijlammepdbdfbfjdnp",
+        "cpnmdlnlfchoncfpcjiepajaoipomkjh",
+        "daihhbkmndcdahoacfekklocmhfmbccl",
+        "dalfpgoflklogpfibbjelegbgfamlhof",
+        "dbapmpdhdcookifhjmhhjafedmccjngf",
+        "dblkabakafpefhmkmohmifbngccbjjnd",
+        "dbnpklccpcihmnhdojfkofackfenjgeh",
+        "dckeopcgdjpomnfiilhlladijgfjafed",
+        "denecgkffndfmilhccefbabeemeifoeh",
+        "dhadilbmmjiooceioladdphemaliiobo",
+        "dhgdjanjenblekmadngppjcfleijgeil",
+        "dhkppgelapjpfdfohfgnfohonikjgfdp",
+        "dipiagiiohfljcicegpgffpbnjmgjcnf",
+        "dkigphlcigadpafbjjnfgjbajlllppfp",
+        "dlmmhgaeahcfkojednnfghfpinbinicj",
+        "dmckhcjdidcggjefnhpodpekjbojjnka",
+        "dnmmcmjgfpdhijgikmfgicaegbgcokph",
+        "dokcnmbnhcpghbicddfopmnogjfkfane",
+        "dpndidmggcboofhpiemlhogghfeifbln",
+        "ebcjphajekmgjjmhlcpnnggolkmenjco",
+        "ebocpknnnjjbaegkgiehcgknffgimhhp",
+        "ebpjnjghimiofdlpnmhclanhckablllf",
+        "ecjondhpjdpclmajhniogilladpgpjgi",
+        "eeacgciknicjglalihbmcnnemhkhjbkb",
+        "eghliofhipkajkilijlcgmbchjbndide",
+        "eifnlajjloljbjibepdldapgdmioobgc",
+        "ejdglbmgallleaogeobkfbnaodlcgddh",
+        "ejofglpfpkihjdfddgmcghnmkijabhdn",
+        "eoebpcbiklhocbchcfjlejdfhfaimfoh",
+        "fclhjpjcoagkkmiedmnlhcjehmcfmbpb",
+        "fggnimaapnoipomphgommaneppehamkg",
+        "fhkkbokchcpcinikhjbpkplkjimiobje",
+        "fjhadiiocdademphldgbmhekcljkhkad",
+        "fkceepiaefcdabdbnecamhdgkjenghkk",
+        "fknpiegiflkklmhdcpoblphcdjlpjeij",
+        "flgplchlgjnbmnmmjfgfkhphoimmikdl",
+        "fngmhnnpilhplaeedifhccceomclgfbg",
+        "fnjimbacflicbeiipbgnekoofpkchdkf",
+        "fofigcdnkcjgidlpnonlajocnjlgbldj",
+        "fogfkkggliobidmgmconagogeeklkppg",
+        "foimmbibcobimbppgbdemneogdokkjee",
+        "fonelbkjafjhkaacdolgajlmnnopkgem",
+        "gbchcmhmhahfdphkhkmpfmihenigjmpp",
+        "gdbplikjiodmhihilecjceiocfhlnnem",
+        "gfahipkpnapflghikmjfmniidakjdnon",
+        "ggiomnbaioeocdipdgfllknhkpcnggjk",
+        "giamniaajnncdkaebodikabdcmpgfoih",
+        "gicdkolmhlicihpnjgohemejidollofb",
+        "gidgenkbbabolejbgbpnhbimgjbffefm",
+        "gjajeihgdmepnkllechhdnjjajphpfop",
+        "gkddaofiamhgfjmaccfcfpfolpgbeomj",
+        "gkgpbgnjclnnofnecabolhjkflldijij",
+        "gkpfblhehbjogpcgcgjpbjakcdjepdgj",
+        "glbegpanbnnjhnpocdgpflcmaegldflm",
+        "haggjokgofpdnidibklgiepchbpamcni",
+        "hajadifgkpphjlfdcoakdlgmbgabhabh",
+        "hbkpclpemjeibhioopcebchdmohaieln",
+        "hcnldfbefeholndgjmnojdppfemhmlhi",
+        "heildphpnddilhkemkielfhnkaagiabh",
+        "hekhdfjankbhklfkjmnmnefcacndeoll",
+        "hghboaddldelomajhcbaodenhafikghj",
+        "higiehlpmiebchdilhlehccgdghmjcip",
+        "hkoeaeenlfnmejoobbpbdhafbnbfeifn",
+        "hmhnkjmcdanflplcdpohemhcjedmcmka",
+        "hngfmjanfdlnbdbieplabjjgdgiahbcf",
+        "iajpapiodpjcgiocblamfbdollecekmh",
+        "ibmdlialbleknfcjmllmoclcpmaabchl",
+        "iefhleobalkilfgibhpgpjfidkhgcgbm",
+        "iemdfikcobcigcfipefemmhppcbjcabe",
+        "ifdebecchhapkfdbcbhpmjonmbpfpnck",
+        "igdfbmbciolmopedmfgcdfomglojndgk",
+        "igidaonkecelbangcglegdalgmbjgiio",
+        "ihefnkfphconcdnpgghfcgaljnfonelj",
+        "ihgohmoccahklkpbaeikhjabngchbdae",
+        "ihpiinojhnfhpdmmacgmpoonphhimkaj",
+        "iicifakoaplhbckfcbbdhodnaaldpmkh",
+        "iifchhfnnmpdbibifmljnfjhpififfog",
+        "ijkmjnaahlnmdjjlbhbjbhlnmadmmlgg",
+        "ikgffoomfkdljkhbhmkaaekgfbendcfd",
+        "ilgkifigeijngojmkdiclpagkmgnlfdi",
+        "imkdgaffmllhkmiconafjhbadhglgdch",
+        "injhcajjjnomnckhlohkngcngljljpkf",
+        "iofangkgkmdfinfebchfbadncnopmpkh",
+        "iogijlddcoblgapinjcpmlcoalfmlemh",
+        "iogjhpoleehplpcaikidehfidfmehojc",
+        "iojaoainolpgkpojokmeclhidjolocci",
+        "ionfjcjlolbefkhiogdiichmnaaojhdj",
+        "iopealhklehkebcdfkemodfmennkaenk",
+        "ipfihoacjhhecfcnefecenoddinebdgp",
+        "jaafanpjodcobojibapcmbdcphbafnfc",
+        "jacclmdgigbhmkgccfniikgkfjblkgpa",
+        "japghlhpdkilcppddfpodnmibeleoibl",
+        "jbcilbkkbecnkffecibdpinjgeebhcjl",
+        "jbgibbcljlbkkeaogjofolcbakcokmie",
+        "jblkegkppbjhaipgdpmjcfccmhogllfi",
+        "jcgifjdnmaajaflleaidjekhalgiidam",
+        "jcjbnkncddbeomhaacaeokhfnefibpde",
+        "jdfpgpfmiocpbmaplgomfgldlpabhpgb",
+        "jdileejkfibfaflbfdffigbmjgnldann",
+        "jdklkfbcodhahdkdlikcoddifehnhkbo",
+        "jfbadlndcminbkfojhlimnkgaackjmdo",
+        "jfnbjbahocpfkbbadndnocljpjpccggf",
+        "jgdpiliffbglifnpjpahifjlefaphehi",
+        "jgofbeaahhiapondaabffdhppadnimcm",
+        "jhbhaeocolccfkhfabkcjaeakkofjnfb",
+        "jifpbeccnghkjeaalbbjmodiffmgedin",
+        "jijfgkocmnifcbiecdfmljcgbaoocdfe",
+        "jjbmeenajaldidaidahefanbfpjigflh",
+        "jjndjlgokmmblepgedoceekejamdecdn",
+        "jjnfngeoigapoceiknioaddkmceekiai",
+        "jkieddepplapmhkfmfpabekmnjpojjhe",
+        "jlhciionmiegecfdffhjlcfanhikpppf",
+        "jmjejjdalfogiopknpabihjhplfkjjjk",
+        "jnkckehcibleladajcnejjbiadbkodng",
+        "jnmipkhdnlcnfllifhlohfigomcpcmhc",
+        "kaaohmdnmbdagpnenakakpkinddjmenp",
+        "kapkpbfdckemecabaomacjichlkhbedg",
+        "kbjogkmdplmdklmgoddbbompbhhchele",
+        "kcfcfndpebgecojfiiiaignbpdbbdodk",
+        "kdljpoaeibbahbaemkpoielapdkkgdaf",
+        "kdmgdhmgkdipafkocoglelakphlciino",
+        "keellbaeaolpbhjohkijamabplhaefpm",
+        "kegnjkacbcfdcbgilpjmlmemlkppbpgf",
+        "keldmkejekdkhdafcidopcdjlpgecghm",
+        "kfbocdnicmioodheiciijiegbmfoliim",
+        "kfhjbbmfcmphjjnmankeliekbnhmjhlg",
+        "kgkgmnicmmjhjlnlpggehndghaikelpb",
+        "kihlbahoakoeaogacjmpghbmnmpmllan",
+        "kjhooagpmjcecfjnnejglkmfcodaaimg",
+        "kjpgleebpmohbfiokcndibcimcdkcoic",
+        "kkbhhioldalmjjhknndocmmagncmndjg",
+        "kklopeldlegdejhihdemgnbakajkcnlk",
+        "knlfemondmfkdecmnknlcbjbpifidffh",
+        "knpibchoohjiojgdecacnlhelhmfljbo",
+        "kpbhbohcdnlcediiopngchhnnofnhaec",
+        "kpeiafbhabppghogjlggnihnbknjnjac",
+        "lagckjdgadpknikjoegcibbollkafpid",
+        "lajchlhgfdaopdpingpkefbggcegkgla",
+        "lbbjiabdjpmkpphamabmodmomhoddlan",
+        "lbdhgkgpfeccldhnodfchnllbclbnhgb",
+        "lbofcampnkjmiomohpbaihdcbjhbfepf",
+        "leehlkhnniaiaaophmaadjkagedefbag",
+        "lejiafennghcpgmbpiodgofeklkpahoe",
+        "lfgcgehnjbgjeigjldphnaaddjjmfali",
+        "lfidjngibpklhhijphdmbmedchiiolgk",
+        "lfloacofilojpelcobmaffkmfjfkkhal",
+        "lhekiangdmpngipilcncogimfbopahfd",
+        "lkiebndfpchkpdeappeacfehciikopcj",
+        "lkihfmeogclcpkjkfpnihfggdjcefeka",
+        "lmeddoobegbaiopohmpmmobpnpjifpii",
+        "lnhnebkkgjmlgomfkkmkoaefbknopmja",
+        "lohfmmegnceigfcdnjpmpecddlaaoodm",
+        "lpokmfekimfmecgdhjdbhidphhchlgml",
+        "manhjibcoendeaihphhkpnfmpkkhgcnf",
+        "mbpkbinibbhobebccikpkfmafkcejnfm",
+        "mhagnkphcmpkmabhocgimoncfaihkpof",
+        "mhhjgfoalfdfpgdlhkpkolomicijbkog",
+        "mkkphmiacpinpddjkjinajkpbmffddjl",
+        "mmilgmonnlfnjlfiiebplbaklfjpadbd",
+        "mndlphhlbhebimaplbmnlmcnkgbjfnmm",
+        "mobpckplhphcfdikfajajihmljhlmkod",
+        "mpbfeeamnphblafmkngbgikigkjhjgbk",
+        "nbcfleofmnckoocgcindmjpclpmifooa",
+        "nckgahadagoaajjgafhacjanaoiihapd",
+        "ndnijgilgcbhfnklfeookcddkgcecofk",
+        "nefehiekhccmedmdoilmhikhdiiijkbe",
+        "nfjhhclkicfofjcjdpdkapbkmmmbnbpf",
+        "ngoeookbfpbhhmhaidcejfbfpgalaafc",
+        "nihmppmidbbbkfademfpjmhhogegjbjd",
+        "nnmhbaacfglhfboiacecogokeonfkjgb",
+        "nonaimmmcikdangdopjmmeopnjnjbelb",
+        "npppenllbjhmdoieikjanfofgnnpekai",
+        "oahebkhciifegdekmknhminnbccpbiha",
+        "ocdgadhmgfhnfngccdplljphgccjoipg",
+        "ocfhemicdhdoipojjjjcfnablgdnhcon",
+        "ocknjalmdlkgnflihnmhpcljabeklfob",
+        "oeonnifhlpahccdflgiijcbcegbimiaj",
+        "ogdpmndhefljkmmfchnekenfamicgepf",
+        "ogggnbbinagpdjpnmfihhgdlogfdmdko",
+        "ogojkdkkcopeepagdlddbninobfhfbcb",
+        "oiaahapngnjijjgplpikimpaepddnfae",
+        "oiigbmnaadbkfbmpbfijlflahbdbdgdf",
+        "ojplepplhmpmlhlogiifghkcmnhgpfdl",
+        "okckhakobjjafdokagndjioajeednpob",
+        "okfjnallgkdfpdpibjpajbhdjdaelhfn",
+        "oknfhghddpnfhibkiclbkcfpfahdhmkh",
+        "oldoicjadfmdblhbpginffebgenjhioh",
+        "oljjipibhaclcokjbhhgjkkkfedeeefl",
+        "olndmgifebdpkdkhodnojleneagpadob",
+        "omiogjhhachcdpkckkommkfenmlgdlkm",
+        "pacinapoaailnjdlpbladkdbdgbdeiga",
+        "pbkbkhieclkbbkhfaomkdfghcpcdidph",
+        "pecpmeaddikflelnpnbphfdkkhgdopfj",
+        "pefcballkadhkhjialafhaoeidhnfefl",
+        "pfmhmjadbiokegmddpjggiaenhjopfek",
+        "pgbmjifidpgbgiiomgpnceddjjcflele",
+        "pgfgdhkpffmomgadlblapaccfbaghffb",
+        "pkmnllhddmecjmdodhepjoldcmnobcbk",
+        "pnafibgafbnojhgeemljepfnkidkldjb",
+        "poeacjbaiakjnaepdjgggojcjoajakmd",
+        "ppdjcepgbeefmahdndpeldkagoligcpn",
+        "abkfaffjmlmannmlnlfheoohcnciagdl",
+        "afgkhnnmcoppkoabgnkmlpnicepkbaji",
+        "afhfbdbjojkmnjhlcefomefflbkbhpcc",
+        "agooajdlfljhhbliomhpincjnnndgffk",
+        "ahboebefkdoiomfpehlgjehokjjlndmj",
+        "aikkpomhgnaciipbediihdakbbbmdfil",
+        "ajfiodhbiellfpcjjedhmmmpeeaebmep",
+        "albbiglcfndaaphglmeaejkhepckkfgf",
+        "ambclkiicpedhalibphbmdbojciekhjj",
+        "ancbofgphhmhcchnaognahmjfajaecmo",
+        "angbhbjbplfpkbcijbkhecjfcfgjbjoc",
+        "apbjhmeabebkfjlofaofoilpinafalom",
+        "bbcokcplpnehgcfgjbpaecnmaedpjifo",
+        "bblcccknbdbplgmdjnnikffefhdlobhp",
+        "bddoeeocbnbkdlciahimmaciiiiadocb",
+        "bdlcnpceagnkjnjlbbbcepohejbheilk",
+        "beflahcbolhhokahidbibjipneonoigi",
+        "beikccihoadachilokfdmdpanmpmpeoa",
+        "belmmbmmlpojpchecfhgbmnobgbpfijc",
+        "beolnaffiilgdnlpggjjmgaobllekdog",
+        "bfidboloedlamgdmenmlbipfnccokknp",
+        "bibjcjfmgapbfoljiojpipaooddpkpai",
+        "bibmocmlcdhadgblaekimealfcnafgfn",
+        "bihmplhobchoageeokmgbdihknkjbknd",
+        "bodigfghdmaefehhkndaekbmffobmppb",
+        "bpbmlajjdoohdhbdnefddjkgfmjnmihd",
+        "celaichmkocmnnehchnlalifoelkagbb",
+        "cgpabepffcnnfokhecgophgabpmdecml",
+        "cjcdcklibiobgephhlbdggoefnipihfn",
+        "ckiahbcmlmkpfiijecbpflfahoimklke",
+        "cmgnmcnlncejehjlnhaglpnoolgbflbd",
+        "coahpcpgfnnaddeelpphpifmgfobflog",
+        "cocfojppfigjeefejbpfmedgjbpchcng",
+        "cojpifopaaneikgfobjnekpfmpkiekff",
+        "cpbkahmbgcfjocgliikbkfiieemcjkoj",
+        "dabbcldigdlbohklnndodmpjokooopdn",
+        "dbclpoekepcmadpkeaelmhiheolhjflj",
+        "dcljefehlpjmoefgoohaobehbenocmkg",
+        "deoodoglhbmpafkajmlggnjnngdclnie",
+        "dfjbeaemgelbidfleegkcankpcdflnbb",
+        "dfkdflfgjdajbhocmfjolpjbebdkcjog",
+        "dhcbjomfajlnldboplncbdhmdaagcpln",
+        "dikhdbajaboomccdhdoeloiofgnlgmnk",
+        "djflhoibgkdhkhhcedjiklpkjnoahfmg",
+        "dkceiphcnbfahjbomhpdgjmphnpgogfk",
+        "dlnjjndkdihpemgllkkchmdlmehoocfa",
+        "dloinlbpnlkcldoghjohgcgcffpjcdgd",
+        "docidlmcemjdcjifcbhpjoldbagcahcn",
+        "dpdmolbociagblhlkopalkepebeoifka",
+        "dpplabbmogkhghncfbfdeeokoefdjegm",
+        "eafbknfeaeiaachhikdedceinfpgcjpd",
+        "eelphgpfmjhndihoopgadghfonahifel",
+        "egepflojmnffmljeklfcopbenebocaig",
+        "egnccllcfmpcmeccejlbbnmobnaglbka",
+        "egnfmleidkolminhjlkaomjefheafbbb",
+        "egplgdgjleleedkhhfmgfjhmihpfjmkk",
+        "ehfhdfiepmimglpijcgmgclaejecmmmi",
+        "ehofpakliohjgnmoooiaeklglehlloja",
+        "eiddfaedmgnpnnojolcknhpjbmmpplgd",
+        "eifglbbbdbmfcjoeeokmpdmhkhcilfil",
+        "eijmjnlmmgmpighmhdmjinnkicpdepcl",
+        "einpaelgookohagofgnnkcfjbkkgepnp",
+        "ekgpjidgffefmpgeaenbjeaflgikoidm",
+        "eljmkmbmhmgmpmmbkagbobpmpocacdbo",
+        "elmekokodcohlommfikpmojheggnbelo",
+        "emkijikhgigaoocojcfkcgkldfhokemo",
+        "enaaiocgfnhfddlooahdapieledmlhnc",
+        "enladiipeikfdkebhdhmehgkfjidllcm",
+        "eofodmndijdlppmakbaakfjampfgaohi",
+        "eogchmcoaekeffdonnikgkflbpaambip",
+        "eohhdfoieoehckiobfemdnhkgeggpdag",
+        "epiohmjifijenpabfpggbphmjinbhgnn",
+        "eppiocemhmnlbhjplcgkofciiegomcon",
+        "fanidijomcjgelkmdikaalabijnocbcd",
+        "fdcgdnkidjaadafnichfpabhfomcebme",
+        "feejmbindcjhogfagdajgajgcaioffhk",
+        "feoecbggbecnepfglopjphmhgabbcajc",
+        "ffbkglfijbcbgblgflchnbphjdllaogb",
+        "ffhkkpnppgnfaobgihpdblnhmmbodake",
+        "fhdpipmdoojfcagafemdcbmphlijindg",
+        "fhlclinacmgjcmoedlnlmgieppakjpoj",
+        "fhlmoffoggikiefmphhkgjeocbfmcojf",
+        "fkjacbaojiegegmncflbalmcflphbnpe",
+        "fmaekbahnjbdfihjechebbnnkllnooag",
+        "fnbmdojpgjpmjjmnjdnbobcdhenmmgod",
+        "foaoniofejognndlmocpjldoanhmcpjn",
+        "gaccleajpkejfibedibgacipdpedgndg",
+        "gakdkimihncjbegihabpiohfjpjabapb",
+        "gchhimlnjdafdlkojbffdkogjhhkdepf",
+        "gcknhkkoolaabfmlnjonogaaifnjlfnp",
+        "gdlffgoefpmgpcdifobanjgekbnipelh",
+        "gffnngoochofmgpkbchpdbdjoijaohog",
+        "gfmpeahnkajendhadhffjdepigoficha",
+        "gggjajccpfamigapinfbbaakhifefaog",
+        "ggmdpepbjljkkkdaklfihhngmmgmpggp",
+        "ghfbbjimolmcijjfnohefkggjgnpmmcg",
+        "gikgkcfpanabmoehplgdkcdbcpfhccch",
+        "gjknjjomckknofjidppipffbpoekiipm",
+        "gkojfkhlekighikafcpjkiklfbnlmeio",
+        "glckifdmfebedonckgeoipbcddofcicl",
+        "gnokijpkcfmacjjceflmielfdpakpioh",
+        "haddlgjmmngomnbgodlnmedamgideppa",
+        "hapcpjncedjlkelfjpkhebcddjccmeao",
+        "hbgknjagaclofapkgkeapamhmglnbphi",
+        "hdbipekpdpggjaipompnomhccfemaljm",
+        "heajfgnegopeedndeahkdjedjkjcmnpb",
+        "hfcjancjclmdfadhgiibjillbgebchnh",
+        "hfdklionolegofhffnhoagpmlailnnni",
+        "hfnbkigpbejmmlpmlldbdglnciccejml",
+        "hgchgdfelliaigmoclcefcabaoipgonc",
+        "hhbaknedgnnamobhnfdomcmdabhhbkbk",
+        "hipncndjamdcmphkgngojegjblibadbe",
+        "hlbcbefdgkijadppmojnghjbinmjmenp",
+        "hmlhkialjkaldndjnlcdfdphcgeadkkm",
+        "hnfelncioblmckpdlgfpckhpemghobkp",
+        "hnmpcagpplmpfojmgmnngilcnanddlhb",
+        "hoapmlpnmpaehilehggglehfdlnoegck",
+        "hojggiaghnldpcknpbciehjcaoafceil",
+        "honmgldinfkdoibjgmofiioodbclaomc",
+        "hpfbfcdoiipkblfeknfggcmfppacjife",
+        "iaddbcgfmhnpdmpaocehjdjkcddjojel",
+        "ibmdbhboiekjjoadjahpnmmcgdmabbdf",
+        "iccbkbogdmejjomglekjmopabbhhppch",
+        "icpklikeghomkemdellmmkoifgfbakio",
+        "idefjamndcpplnamdlbodoebjgkpdmpn",
+        "idgiipeogajjpkgheijapngmlbohdhjg",
+        "ifbchccfedjkkhlnffjckaghjdpchhmo",
+        "igafjdcboeahmnojhkaplghloibnjkbg",
+        "ighgcligfbemmpnidpkhikmnmeohfafb",
+        "iilpibhiihokecnbdkaminemnmecjfed",
+        "ijkigikllmhkhijmfmeojpimnjikiejf",
+        "ikgciohnbleecnmmfogpgikliagmmckn",
+        "incpemikbdbicfaadfoiofgfbnjlkepg",
+        "iniemkmglikacblhogibonefpekklpoi",
+        "inpkhjhgpbkjdaomkiacfamklnocegdj",
+        "ipmhhkbihlplopmgllmjnieafgeiijom",
+        "jagekljofloidfdcggobddkggjkglepj",
+        "jbamdbmfnnbibcemncjljnhdmdejecni",
+        "jbgaenfcafjkcgbdombjpimhfhafonne",
+        "jcchcfimonbdkmlipmokhngdmpamokjj",
+        "jdhebjohjpgicipoimkglgledckdalke",
+        "jedgfcnbkbgiheojcfkbphplgkhgppgf",
+        "jhficiigpnhhaojldmanflihieepanbb",
+        "jjcbdicopfocaammmdckcigmkfbdomaj",
+        "jkaiofboahfpipgijdgdmbdldlgcipgo",
+        "jknmpnbgkaekopldbncmggaejjamkemn",
+        "jljopmgdobloagejpohpldgkiellmfnc",
+        "jmmnaflnlpniogaclpnhmlheojfgpngc",
+        "jngjogppmaagdmommnanclhdlfdknala",
+        "jpgljfpmoofbmlieejglhonfofmahini",
+        "kcakmaappcemdifppikfldphnpempaea",
+        "keffjnnjjpeemgobbiemjhpdmbbkedmh",
+        "keffnkgkjiancfjjolkoejiocficcbni",
+        "keodbianoliadkoelloecbhllnpiocoi",
+        "kfkmakbpfgmgeiajohdbdddbeikdkhkm",
+        "kgjhgbkbobjkkhkfddbdmcppkaialoel",
+        "kjdonoimnehlagllfcbjlogodpkdmpdh",
+        "kjjlmgehohdbclcmfmphmifnppmcmeio",
+        "kjoijidmccdgfkfpaifgbadngienaapd",
+        "kkcgohjaclhbnopkjmeajmbhkgdamgck",
+        "kkdpmhnladdopljabkgpacgpliggeeaf",
+        "kknhnohcdoniognlghnfimijeeanccbi",
+        "koknbglnkcgokmddnlaclabaljfahofa",
+        "kpiecbcckbofpmkkkdibbllpinceiihk",
+        "lcbhdgefieegnkbopmgklhlpjjdgmbog",
+        "ldmijipifehlbfdjianaodgcichbkgne",
+        "lfpfdkldcgcmdioidcldjcmlfacnkild",
+        "lghjfaohajkkfhpfoekdkoandkmefiog",
+        "lgkgpmoglpemohmihphdaljcjnfkndoi",
+        "lhgfldjjjkhenkphjebakgiihdfolffo",
+        "lhhipingoaiddcoalochnbjlkifbpmoj",
+        "ljfpjnehmoiabkefmnjegmpdddgcdnpo",
+        "ljjnhkmdlhpjalapikmdocokkigmhimo",
+        "lkmofgnohbedopheiphabfhfjgkhfcgf",
+        "lledpflfnanamkogoclkgaggfdgoalok",
+        "llkgfanamkkihccjekjjhkkglkipaokj",
+        "lmmpgfjnchldhcieiiegcpdmaidkaanb",
+        "lochiccbgeohimldjooaakjllnafhaid",
+        "lohcocoaocofaignglmnkjjiilmabhhn",
+        "lonijlpkhmabedfiafipngignpeoighg",
+        "mbacbcfdfaapbcnlnbmciiaakomhkbkb",
+        "mbfcnfgpimdeehokhmhdhmpmkphdeamd",
+        "mblpipfoicjgcokcnnmbebnlooldfdjc",
+        "mcdhcdpjbogkejlhogcakicmmiielhkk",
+        "mfoihmgadcjlpehaenaclbcldkndjnll",
+        "mhhgoconcdmbnophfhcjhekjnpeicido",
+        "mhmpgcbflgccpljpkhmfdccljneeahpo",
+        "midcoghlhhfhcbjenjohkcocbeijngbf",
+        "mjnbclmflcpookeapghfhapeffmpodij",
+        "mkppnihocmleolachpfokilhlamjglkl",
+        "mnjmjnofadekgmfahkikcjbckdofddbb",
+        "mnloefcpaepkpmhaoipjkpikbnkmbnic",
+        "mohlkcjjgnglcnehppefllgiimocchgn",
+        "mpcaainmfjjigeicjnlkdfajbioopjko",
+        "mpmikmnnnoacchojfpdgfdgpkfgajhim",
+        "nbcojefnccbanplpoffopkoepjmhgdgh",
+        "nbdanhiimhghdlhjnjeplpplojecnjmh",
+        "ncmnhiijmdhplkmkpejmmbpjiojchefe",
+        "nhfjkakglbnnpkpldhjmpmmfefifedcj",
+        "nijebgacophnpgohfblkmdbjbmfcjagd",
+        "nikmiciggennficcomjdfkpniplkpihm",
+        "nkbihfbeogaeaoehlefnkodbefgpgknn",
+        "nlbejmccbhkncgokjcmghpfloaajcffj",
+        "nnmobgfbhaonibkobdaenhdjffcfncgk",
+        "oagkiclohpbelmolgkhmamjjdbppejdo",
+        "obhemlghbbloobahdlkjmniichcandhd",
+        "odiddbcijempnhhobijfbggjogofdlgl",
+        "odlgkocclgbbahkiajhldmlbmefpcjnc",
+        "ofcifgpkhdehcpkbnicmjnceebpcilno",
+        "ogikkjdnpheackljfelfkgbgdpmpjpfl",
+        "ohlbpbhmhjadmjfibjmhbjjkefnehknp",
+        "ojagfgibjiofppmilfbgmipfelkhcccn",
+        "ojedkepkekklpjcgdfiahladdbopbooh",
+        "ojekadcfnkkihlleaafggfgbggdckpgo",
+        "ojjklffhhhfpeaelghfocilljceokage",
+        "oknedbefhljbabbioodiahaapfbogceg",
+        "oknggkioalbldgcfhcolnaimjodljfli",
+        "okoljbhneendljccdhklhefckepemjnf",
+        "olhaibgnamekjimdmcinddmmoidbehel",
+        "ollhbgdkbcafedfpfkjlkcgkmdnhfgfi",
+        "olpfnfcoflgpbbfhedielmmdacikbfhk",
+        "omdakjcmkglenbhjadbccaookpfjihpa",
+        "omghfjlpggmjjaagoclmmobgdodcjboh",
+        "omihnninlhneakfglooiofgdbpmnhjgn",
+        "onnfghpihccifgojkpnnncpagjcdbjod",
+        "oodblefojaocanejnikhhjcglbaelpbp",
+        "oofgbpoabipfcfjapgnbbjjaenockbdp",
+        "ookhnhpkphagefgdiemllfajmkdkcaim",
+        "padekgcemlokbadohgkifijomclgjgif",
+        "pdijpndilfpgemgnkjjhkgjckibjffbo",
+        "pdnfnkhpgegpcingjbfihlkjeighnddk",
+        "piaijcffnelcnggoelelopahllaoempi",
+        "pmepbbmpmkdgdghmaddkkakagceahgmd",
+        "pnjaenlogfahpkkmmhbenkendmhcaebo",
+        "pooljnboifbodgifngpppfklhifechoe",
+        "ppmibgfeefcglejjlpeihfdimbkfbbnm"
+      ]
+    },
+    ExtensionInstallForcelist: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: [
+        "apdfllckaahabafndbhieahigkjlhalf;https://clients2.google.com/service/update2/crx",
+        "dncgedbnidfkppmdgfgidcepclnokpkb;https://clients2.google.com/service/update2/crx",
+        "ghbmnnjooekpmoecnnnilnnbdlolhkhi;https://clients2.google.com/service/update2/crx",
+        "gmbgaklkmjakoegficnlkhebmhkjfich;https://clients2.google.com/service/update2/crx",
+        "hfhhnacclhffhdffklopdkcgdhifgngh;https://clients2.google.com/service/update2/crx",
+        "hmffdimoneaieldiddcmajhbjijmnggi;https://clients2.google.com/service/update2/crx",
+        "kbohafcopfpigkjdimdcdgenlhkmhbnc;https://clients2.google.com/service/update2/crx",
+        "magknjdfniglanojbpadmpjlglepnlko;https://clients2.google.com/service/update2/crx",
+        "okgjbfikepgflmlelgfgecmgjnmnmnnb;https://clients2.google.com/service/update2/crx",
+        "pnhplgjpclknigjpccbcnmicgcieojbh;https://clients2.google.com/service/update2/crx",
+        "ecimfebadcfiablhgjpheinknpdkdjhh;https://clients2.google.com/service/update2/crx",
+        "iimbdmgkimpbhimdjnmiffmeefbppijo;https://clients2.google.com/service/update2/crx",
+        "hmbjbjdpkobdjplfobhljndfdfdipjhg;https://clients2.google.com/service/update2/crx",
+        "jnhgefjoahogmkkekdnafldkdgppfehd;https://clients2.google.com/service/update2/crx",
+        "mfhehppjhmmnlfbbopchdfldgimhfhfk;https://clients2.google.com/service/update2/crx",
+        "pjkljhegncpnkpknbcohdijeoejaedia;https://clients2.google.com/service/update2/crx",
+        "gdicnpbaekbefjanokchpfhnaphfnphl;https://clients2.google.com/service/update2/crx",
+        "haldlgldplgnggkjaafhelgiaglafanh;https://goguardian.com/ext/m.xml",
+        "jgfbgkjjlonelmpenhpfeeljjlcgnkpe;https://clients2.google.com/service/update2/crx",
+        "mdlcphidjnknlphbhkoelldjpajnmead;https://goguardian.com/licenses/update.php",
+        "mmeijimgabbpbgpdklnllpncmdofkcpn;https://clients2.google.com/service/update2/crx"
+      ]
+    },
+    ExtensionSettings: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: {
+        *: {
+          blocked_permissions: [
+            "proxy",
+            "vpnProvider"
+          ]
+        },
+        apdfllckaahabafndbhieahigkjlhalf: {
+          toolbar_pin: "force_pinned"
+        },
+        hmbjbjdpkobdjplfobhljndfdfdipjhg: {
+          toolbar_pin: "force_pinned"
+        },
+        jnhgefjoahogmkkekdnafldkdgppfehd: {
+          toolbar_pin: "force_pinned"
+        },
+        mfhehppjhmmnlfbbopchdfldgimhfhfk: {
+          toolbar_pin: "force_pinned"
+        },
+        pjkljhegncpnkpknbcohdijeoejaedia: {
+          toolbar_pin: "force_pinned"
+        }
+      }
+    },
+    ExternalStorageDisabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: false
+    },
+    ExternalStorageReadOnly: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: false
+    },
+    ForceGoogleSafeSearch: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: false
+    },
+    ForceYouTubeRestrict: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: 1
+    },
+    HeartbeatEnabled: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: false
+    },
+    HomepageIsNewTabPage: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: false
+    },
+    HomepageLocation: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: "https://sites.google.com/carmelunified.org/cmsportal/home"
+    },
+    IncognitoModeAvailability: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: 1
+    },
+    InstantTetheringAllowed: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: false
+    },
+    LacrosAllowed: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: false
+    },
+    LacrosAvailability: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: "lacros_disallowed"
+    },
+    LacrosSecondaryProfilesAllowed: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: false
+    },
+    LidCloseAction: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: 0
+    },
+    LogUploadEnabled: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: false
+    },
+    LoginDisplayPasswordButtonEnabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: false
+    },
+    LoginVideoCaptureAllowedUrls: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: []
+    },
+    ManagedBookmarks: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: [
+        {
+          toplevel_name: "CUSD Quick Links"
+        },
+        {
+          name: "Classlink",
+          url: "https://launchpad.classlink.com/carmelunified"
+        },
+        {
+          name: "Carmel Unified Home Page",
+          url: "www.carmelunified.org"
+        }
+      ]
+    },
+    NTLMShareAuthenticationEnabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: false
+    },
+    NTPCustomBackgroundEnabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: true
+    },
+    NearbyShareAllowed: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: false
+    },
+    NetBiosShareDiscoveryEnabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: false
+    },
+    NetworkPredictionOptions: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: 2
+    },
+    NetworkThrottlingEnabled: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: {
+        download_rate_kbits: 0,
+        enabled: false,
+        upload_rate_kbits: 0
+      }
+    },
+    OpenNetworkConfiguration: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: "{\n   \"Certificates\": [ {\n      \"GUID\": \"{2ae6cf1f-626a-4161-92b1-804a0317c1f0}\",\n      \"TrustBits\": [ \"Web\" ],\n      \"Type\": \"Authority\",\n      \"X509\": \"-----BEGIN CERTIFICATE-----\\nMIID5jCCAs6gAwIBAgIICHtF2rfta1UwDQYJKoZIhvcNAQELBQAwgakxCzAJBgNV\\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQHDAlTdW5ueXZhbGUx\\nETAPBgNVBAoMCEZvcnRpbmV0MR4wHAYDVQQLDBVDZXJ0aWZpY2F0ZSBBdXRob3Jp\\ndHkxGTAXBgNVBAMMEEZHMzNFMVQ5MTk5MDAyMzAxIzAhBgkqhkiG9w0BCQEWFHN1\\ncHBvcnRAZm9ydGluZXQuY29tMB4XDTIwMDcwODAzNDgxOFoXDTMwMDcwOTAzNDgx\\nOFowgakxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQH\\nDAlTdW5ueXZhbGUxETAPBgNVBAoMCEZvcnRpbmV0MR4wHAYDVQQLDBVDZXJ0aWZp\\nY2F0ZSBBdXRob3JpdHkxGTAXBgNVBAMMEEZHMzNFMVQ5MTk5MDAyMzAxIzAhBgkq\\nhkiG9w0BCQEWFHN1cHBvcnRAZm9ydGluZXQuY29tMIIBIjANBgkqhkiG9w0BAQEF\\nAAOCAQ8AMIIBCgKCAQEAzxlhk4bfAH9xu7Z/suJd2rV+essrmsntRbDV3WBxQ3a7\\nqAfjDUXRFLY3RDhmeCMJpwgrkJErhRZSN8jNfmu7xtDpGIB5tT6nbh7rfm1Da9JK\\naQU5+J3kSciA03c36yK2I/5isZV9rWsaBxs437w+a9ORfo7ltK4fO2VXxSzHLRZt\\nGIpO/2WRnOmR1dBF7/PzHrum2zzEtH8sqA2uYu2b3G1qbAwSR2l4A63aHW6qgrKz\\nmTcwJVU2kzyKIX1DYTobCWo+tsPOaT6jT+eZBgxWY+Dqf9/m+cDIevjOBd9cyVEu\\nSXEqh6nqvGdjkJXESraEg7aTltS5kiTqB5FWyiDixwIDAQABoxAwDjAMBgNVHRME\\nBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCQtGJRzgFZl7sLPaOrsP+p8T6UbgON\\nbaK5FvKPIHHQl0cxTT0iaDo2V9KACllJvkvalAh1qnRY6GALXC2ebZMPk5o+4DGf\\ncdGntmbb1FP007AcI5WCd+epVlk5zN/9wD2vuB7/2PRLZHJghaUzjCWxMqd/25aM\\nvVQXdzYWzVwv/ED03i/o6DR9zvk+kVVpIZRr/jwSns+EVwT6ITjPh5CRJIuByK7x\\njBAGTqfSiQ7NZ7E6mhUn1TZAd4yBU0Y2/3KgQSzHRwrL3uTpuAhabbtHD4RNtsYb\\n016kRb+hJMN7B1e7vPHXBJ8tQE2uuCmJlmWF3Y+4V6dGUZGU7XF8kQim\\n-----END CERTIFICATE-----\"\n   }, {\n      \"GUID\": \"{73abfc3d-32b2-41c0-a2b6-c3b7aaa673fe}\",\n      \"TrustBits\": [ \"Web\" ],\n      \"Type\": \"Authority\",\n      \"X509\": \"-----BEGIN CERTIFICATE-----\\nMIID8DCCAtigAwIBAgIIAv62XJJhiTIwDQYJKoZIhvcNAQELBQAwga4xCzAJBgNV\\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQHDAlTdW5ueXZhbGUx\\nETAPBgNVBAoMCEZvcnRpbmV0MR4wHAYDVQQLDBVDZXJ0aWZpY2F0ZSBBdXRob3Jp\\ndHkxHjAcBgNVBAMMFUZvcnRpbmV0IFVudHJ1c3RlZCBDQTEjMCEGCSqGSIb3DQEJ\\nARYUc3VwcG9ydEBmb3J0aW5ldC5jb20wHhcNMjAwNzA4MDM0ODE4WhcNMzAwNzA5\\nMDM0ODE4WjCBrjELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExEjAQ\\nBgNVBAcMCVN1bm55dmFsZTERMA8GA1UECgwIRm9ydGluZXQxHjAcBgNVBAsMFUNl\\ncnRpZmljYXRlIEF1dGhvcml0eTEeMBwGA1UEAwwVRm9ydGluZXQgVW50cnVzdGVk\\nIENBMSMwIQYJKoZIhvcNAQkBFhRzdXBwb3J0QGZvcnRpbmV0LmNvbTCCASIwDQYJ\\nKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJp+MuetRKrKO2LTxc2wNl59LOtKrHj/\\n/eDGGD1O1O5vyGCRYA6FcPk2zjMicPkncUNpve0MF/hp5PPloqqThVngAafFnRPF\\nmvZ9RGGzYVGlo88G4DsDtZ7Kkr/9gIj8hET2tZDv3X64atGSihGlwH+A895CMWE6\\nmwZ8ieCG0+PXNxHztS1yAYJkq1TXfyexglDYy4fO7zN5QAL0wIzEVZfPjMXgAcb+\\nmJVCDTJSHrf4yBchRpJflEbfZNimAaDGXxkxfsPcjZ8TYRl9oDU6HzSOt7eBNwoW\\n4m8MO16Z5X9u+5+8BuGNedK3uemQyEW8adJ8DgW+hMrVBKhuwF5mTZMCAwEAAaMQ\\nMA4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZLb1wOGQeJjbTVg/\\nfJVYX5JXMUAHAaoAfPLwagbFOxOGf85lKJ+m1pH+1cVYXC4lqVYlPBQGOXfsF3FG\\na2A/lIVR89MZ3Lr+EOCQOLTVc77gwe6/JlmUqPzY/Ki3iFscuO+0DImoSSIK0kg9\\n4xsHn6fqYMIONdugw9xS24+wctDjJNmxU7HrNhdTmWRn9HnhgOHT+7W6PzAgsC/o\\nVg8ZYxJB+SX0NSXCGgvWsGNojsaNR9OmnD5IMnkLL7+0rZLOkGw7id07msTBdE0+\\n1T5VSeoL+N3LOk1DUzk7X2Q/xx7pZ2+LEqgTVBoRN6uDt0On9NQVZJlcxobeMUBO\\nBwqEPA==\\n-----END CERTIFICATE-----\"\n   } ]\n}\n
+    },
+    PasswordLeakDetectionEnabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: true
+    },
+    PhoneHubAllowed: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: false
+    },
+    PinUnlockAutosubmitEnabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: false
+    },
+    PinnedLauncherApps: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: [
+        "apdfllckaahabafndbhieahigkjlhalf",
+        "hmbjbjdpkobdjplfobhljndfdfdipjhg",
+        "jnhgefjoahogmkkekdnafldkdgppfehd",
+        "mfhehppjhmmnlfbbopchdfldgimhfhfk",
+        "pjkljhegncpnkpknbcohdijeoejaedia"
+      ]
+    },
+    PluginVmAllowed: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    PowerManagementIdleSettings: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: {
+        AC: {
+          IdleAction: "Suspend"
+        },
+        Battery: {
+          IdleAction: "Suspend"
+        }
+      }
+    },
+    PresentationScreenDimDelayScale: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: 100
+    },
+    PrintersBulkAccessMode: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: 1
+    },
+    PrintersBulkConfiguration: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: {
+        hash: "e0d123efc245d8fcb98672b629f2c452fc67eb64af34af6038c3cc0d9ed209ad",
+        url: "https://storage.googleapis.com/chromeos-mgmt/0gjdgxs37mgh3k/NativePrinter/ddb148a8-9bd3-4e0a-8227-b3f9908a9725"
+      }
+    },
+    PrintingAllowedColorModes: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: "any"
+    },
+    QuicAllowed: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: false
+    },
+    QuickUnlockModeAllowlist: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: []
+    },
+    QuickUnlockModeWhitelist: {
+      deprecated: true,
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: []
+    },
+    RebootAfterUpdate: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    RelaunchNotification: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: 2
+    },
+    RelaunchNotificationPeriod: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: 86400000
+    },
+    ReportDeviceActivityTimes: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    ReportDeviceBootMode: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    ReportDeviceHardwareStatus: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    ReportDeviceNetworkInterfaces: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    ReportDeviceOsUpdateStatus: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    ReportDeviceSessionStatus: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    ReportDeviceUsers: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    ReportDeviceVersionInfo: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: true
+    },
+    ReportUploadFrequency: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: 10800000
+    },
+    RestoreOnStartup: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: 4
+    },
+    RestoreOnStartupURLs: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: [
+        "https://sites.google.com/carmelunified.org/cmsportal/home"
+      ]
+    },
+    SAMLOfflineSigninTimeLimit: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: 86400
+    },
+    SafeSitesFilterBehavior: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: 1
+    },
+    SearchSuggestEnabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: false
+    },
+    SecondaryGoogleAccountSigninAllowed: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: false
+    },
+    ShowFullUrlsInAddressBar: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: false
+    },
+    ShowHomeButton: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: true
+    },
+    SmartLockSigninAllowed: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: false
+    },
+    SmsMessagesAllowed: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: false
+    },
+    SuggestedContentEnabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: false
+    },
+    TPMFirmwareUpdateSettings: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: {}
+    },
+    TaskManagerEndProcessEnabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: false
+    },
+    URLBlocklist: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: [
+        "http://www.fromages-de-terroirs.com/",
+        "https://www.textnow.com/",
+        "https://web.oovoo.com/",
+        "chrome://extensions",
+        "chrome-extension://nkoccljplnhpfnfiajclkommnmllphnl/html/crosh.html",
+        "nkoccljplnhpfnfiajclkommnmllphnl/html/crosh.html"
+      ]
+    },
+    UsbDetachableAllowlist: {
+      level: "mandatory",
+      scope: "machine",
+      source: "cloud",
+      value: []
+    },
+    UserActivityScreenDimDelayScale: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: 100
+    },
+    VoiceInteractionHotwordEnabled: {
+      level: "mandatory",
+      scope: "user",
+      source: "cloud",
+      value: false
+    },
+    WifiSyncAndroidAllowed: {
+      level: "mandatory",
+      scope: "user",
+      source: "sourceEnterpriseDefault",
+      value: false
+    }
+  },
+  deviceLocalAccountPolicies: {
+    616f626a6d666d6869616867656a6d616f6966626a696d6f6a70666a63706961@kiosk-apps.device-local.localhost: {
+      AutoplayAllowed: {
+        level: "mandatory",
+        scope: "user",
+        source: "cloud",
+        value: true
+      },
+      FloatingAccessibilityMenuEnabled: {
+        level: "mandatory",
+        scope: "user",
+        source: "cloud",
+        value: false
+      },
+      OpenNetworkConfiguration: {
+        level: "mandatory",
+        scope: "user",
+        source: "cloud",
+        value: "{\n   \"Certificates\": [ {\n      \"GUID\": \"{2ae6cf1f-626a-4161-92b1-804a0317c1f0}\",\n      \"TrustBits\": [ \"Web\" ],\n      \"Type\": \"Authority\",\n      \"X509\": \"-----BEGIN CERTIFICATE-----\\nMIID5jCCAs6gAwIBAgIICHtF2rfta1UwDQYJKoZIhvcNAQELBQAwgakxCzAJBgNV\\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQHDAlTdW5ueXZhbGUx\\nETAPBgNVBAoMCEZvcnRpbmV0MR4wHAYDVQQLDBVDZXJ0aWZpY2F0ZSBBdXRob3Jp\\ndHkxGTAXBgNVBAMMEEZHMzNFMVQ5MTk5MDAyMzAxIzAhBgkqhkiG9w0BCQEWFHN1\\ncHBvcnRAZm9ydGluZXQuY29tMB4XDTIwMDcwODAzNDgxOFoXDTMwMDcwOTAzNDgx\\nOFowgakxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQH\\nDAlTdW5ueXZhbGUxETAPBgNVBAoMCEZvcnRpbmV0MR4wHAYDVQQLDBVDZXJ0aWZp\\nY2F0ZSBBdXRob3JpdHkxGTAXBgNVBAMMEEZHMzNFMVQ5MTk5MDAyMzAxIzAhBgkq\\nhkiG9w0BCQEWFHN1cHBvcnRAZm9ydGluZXQuY29tMIIBIjANBgkqhkiG9w0BAQEF\\nAAOCAQ8AMIIBCgKCAQEAzxlhk4bfAH9xu7Z/suJd2rV+essrmsntRbDV3WBxQ3a7\\nqAfjDUXRFLY3RDhmeCMJpwgrkJErhRZSN8jNfmu7xtDpGIB5tT6nbh7rfm1Da9JK\\naQU5+J3kSciA03c36yK2I/5isZV9rWsaBxs437w+a9ORfo7ltK4fO2VXxSzHLRZt\\nGIpO/2WRnOmR1dBF7/PzHrum2zzEtH8sqA2uYu2b3G1qbAwSR2l4A63aHW6qgrKz\\nmTcwJVU2kzyKIX1DYTobCWo+tsPOaT6jT+eZBgxWY+Dqf9/m+cDIevjOBd9cyVEu\\nSXEqh6nqvGdjkJXESraEg7aTltS5kiTqB5FWyiDixwIDAQABoxAwDjAMBgNVHRME\\nBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCQtGJRzgFZl7sLPaOrsP+p8T6UbgON\\nbaK5FvKPIHHQl0cxTT0iaDo2V9KACllJvkvalAh1qnRY6GALXC2ebZMPk5o+4DGf\\ncdGntmbb1FP007AcI5WCd+epVlk5zN/9wD2vuB7/2PRLZHJghaUzjCWxMqd/25aM\\nvVQXdzYWzVwv/ED03i/o6DR9zvk+kVVpIZRr/jwSns+EVwT6ITjPh5CRJIuByK7x\\njBAGTqfSiQ7NZ7E6mhUn1TZAd4yBU0Y2/3KgQSzHRwrL3uTpuAhabbtHD4RNtsYb\\n016kRb+hJMN7B1e7vPHXBJ8tQE2uuCmJlmWF3Y+4V6dGUZGU7XF8kQim\\n-----END CERTIFICATE-----\"\n   }, {\n      \"GUID\": \"{73abfc3d-32b2-41c0-a2b6-c3b7aaa673fe}\",\n      \"TrustBits\": [ \"Web\" ],\n      \"Type\": \"Authority\",\n      \"X509\": \"-----BEGIN CERTIFICATE-----\\nMIID8DCCAtigAwIBAgIIAv62XJJhiTIwDQYJKoZIhvcNAQELBQAwga4xCzAJBgNV\\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQHDAlTdW5ueXZhbGUx\\nETAPBgNVBAoMCEZvcnRpbmV0MR4wHAYDVQQLDBVDZXJ0aWZpY2F0ZSBBdXRob3Jp\\ndHkxHjAcBgNVBAMMFUZvcnRpbmV0IFVudHJ1c3RlZCBDQTEjMCEGCSqGSIb3DQEJ\\nARYUc3VwcG9ydEBmb3J0aW5ldC5jb20wHhcNMjAwNzA4MDM0ODE4WhcNMzAwNzA5\\nMDM0ODE4WjCBrjELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExEjAQ\\nBgNVBAcMCVN1bm55dmFsZTERMA8GA1UECgwIRm9ydGluZXQxHjAcBgNVBAsMFUNl\\ncnRpZmljYXRlIEF1dGhvcml0eTEeMBwGA1UEAwwVRm9ydGluZXQgVW50cnVzdGVk\\nIENBMSMwIQYJKoZIhvcNAQkBFhRzdXBwb3J0QGZvcnRpbmV0LmNvbTCCASIwDQYJ\\nKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJp+MuetRKrKO2LTxc2wNl59LOtKrHj/\\n/eDGGD1O1O5vyGCRYA6FcPk2zjMicPkncUNpve0MF/hp5PPloqqThVngAafFnRPF\\nmvZ9RGGzYVGlo88G4DsDtZ7Kkr/9gIj8hET2tZDv3X64atGSihGlwH+A895CMWE6\\nmwZ8ieCG0+PXNxHztS1yAYJkq1TXfyexglDYy4fO7zN5QAL0wIzEVZfPjMXgAcb+\\nmJVCDTJSHrf4yBchRpJflEbfZNimAaDGXxkxfsPcjZ8TYRl9oDU6HzSOt7eBNwoW\\n4m8MO16Z5X9u+5+8BuGNedK3uemQyEW8adJ8DgW+hMrVBKhuwF5mTZMCAwEAAaMQ\\nMA4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZLb1wOGQeJjbTVg/\\nfJVYX5JXMUAHAaoAfPLwagbFOxOGf85lKJ+m1pH+1cVYXC4lqVYlPBQGOXfsF3FG\\na2A/lIVR89MZ3Lr+EOCQOLTVc77gwe6/JlmUqPzY/Ki3iFscuO+0DImoSSIK0kg9\\n4xsHn6fqYMIONdugw9xS24+wctDjJNmxU7HrNhdTmWRn9HnhgOHT+7W6PzAgsC/o\\nVg8ZYxJB+SX0NSXCGgvWsGNojsaNR9OmnD5IMnkLL7+0rZLOkGw7id07msTBdE0+\\n1T5VSeoL+N3LOk1DUzk7X2Q/xx7pZ2+LEqgTVBoRN6uDt0On9NQVZJlcxobeMUBO\\nBwqEPA==\\n-----END CERTIFICATE-----\"\n   } ]\n}\n
+      }
+    },
+    636c6b6b6f6d6a626466666e68686163676f636c6d616961676b6a6b6d6d7065@kiosk-apps.device-local.localhost: {
+      AutoplayAllowed: {
+        level: "mandatory",
+        scope: "user",
+        source: "cloud",
+        value: true
+      },
+      FloatingAccessibilityMenuEnabled: {
+        level: "mandatory",
+        scope: "user",
+        source: "cloud",
+        value: false
+      },
+      OpenNetworkConfiguration: {
+        level: "mandatory",
+        scope: "user",
+        source: "cloud",
+        value: "{\n   \"Certificates\": [ {\n      \"GUID\": \"{2ae6cf1f-626a-4161-92b1-804a0317c1f0}\",\n      \"TrustBits\": [ \"Web\" ],\n      \"Type\": \"Authority\",\n      \"X509\": \"-----BEGIN CERTIFICATE-----\\nMIID5jCCAs6gAwIBAgIICHtF2rfta1UwDQYJKoZIhvcNAQELBQAwgakxCzAJBgNV\\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQHDAlTdW5ueXZhbGUx\\nETAPBgNVBAoMCEZvcnRpbmV0MR4wHAYDVQQLDBVDZXJ0aWZpY2F0ZSBBdXRob3Jp\\ndHkxGTAXBgNVBAMMEEZHMzNFMVQ5MTk5MDAyMzAxIzAhBgkqhkiG9w0BCQEWFHN1\\ncHBvcnRAZm9ydGluZXQuY29tMB4XDTIwMDcwODAzNDgxOFoXDTMwMDcwOTAzNDgx\\nOFowgakxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQH\\nDAlTdW5ueXZhbGUxETAPBgNVBAoMCEZvcnRpbmV0MR4wHAYDVQQLDBVDZXJ0aWZp\\nY2F0ZSBBdXRob3JpdHkxGTAXBgNVBAMMEEZHMzNFMVQ5MTk5MDAyMzAxIzAhBgkq\\nhkiG9w0BCQEWFHN1cHBvcnRAZm9ydGluZXQuY29tMIIBIjANBgkqhkiG9w0BAQEF\\nAAOCAQ8AMIIBCgKCAQEAzxlhk4bfAH9xu7Z/suJd2rV+essrmsntRbDV3WBxQ3a7\\nqAfjDUXRFLY3RDhmeCMJpwgrkJErhRZSN8jNfmu7xtDpGIB5tT6nbh7rfm1Da9JK\\naQU5+J3kSciA03c36yK2I/5isZV9rWsaBxs437w+a9ORfo7ltK4fO2VXxSzHLRZt\\nGIpO/2WRnOmR1dBF7/PzHrum2zzEtH8sqA2uYu2b3G1qbAwSR2l4A63aHW6qgrKz\\nmTcwJVU2kzyKIX1DYTobCWo+tsPOaT6jT+eZBgxWY+Dqf9/m+cDIevjOBd9cyVEu\\nSXEqh6nqvGdjkJXESraEg7aTltS5kiTqB5FWyiDixwIDAQABoxAwDjAMBgNVHRME\\nBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCQtGJRzgFZl7sLPaOrsP+p8T6UbgON\\nbaK5FvKPIHHQl0cxTT0iaDo2V9KACllJvkvalAh1qnRY6GALXC2ebZMPk5o+4DGf\\ncdGntmbb1FP007AcI5WCd+epVlk5zN/9wD2vuB7/2PRLZHJghaUzjCWxMqd/25aM\\nvVQXdzYWzVwv/ED03i/o6DR9zvk+kVVpIZRr/jwSns+EVwT6ITjPh5CRJIuByK7x\\njBAGTqfSiQ7NZ7E6mhUn1TZAd4yBU0Y2/3KgQSzHRwrL3uTpuAhabbtHD4RNtsYb\\n016kRb+hJMN7B1e7vPHXBJ8tQE2uuCmJlmWF3Y+4V6dGUZGU7XF8kQim\\n-----END CERTIFICATE-----\"\n   }, {\n      \"GUID\": \"{73abfc3d-32b2-41c0-a2b6-c3b7aaa673fe}\",\n      \"TrustBits\": [ \"Web\" ],\n      \"Type\": \"Authority\",\n      \"X509\": \"-----BEGIN CERTIFICATE-----\\nMIID8DCCAtigAwIBAgIIAv62XJJhiTIwDQYJKoZIhvcNAQELBQAwga4xCzAJBgNV\\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQHDAlTdW5ueXZhbGUx\\nETAPBgNVBAoMCEZvcnRpbmV0MR4wHAYDVQQLDBVDZXJ0aWZpY2F0ZSBBdXRob3Jp\\ndHkxHjAcBgNVBAMMFUZvcnRpbmV0IFVudHJ1c3RlZCBDQTEjMCEGCSqGSIb3DQEJ\\nARYUc3VwcG9ydEBmb3J0aW5ldC5jb20wHhcNMjAwNzA4MDM0ODE4WhcNMzAwNzA5\\nMDM0ODE4WjCBrjELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExEjAQ\\nBgNVBAcMCVN1bm55dmFsZTERMA8GA1UECgwIRm9ydGluZXQxHjAcBgNVBAsMFUNl\\ncnRpZmljYXRlIEF1dGhvcml0eTEeMBwGA1UEAwwVRm9ydGluZXQgVW50cnVzdGVk\\nIENBMSMwIQYJKoZIhvcNAQkBFhRzdXBwb3J0QGZvcnRpbmV0LmNvbTCCASIwDQYJ\\nKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJp+MuetRKrKO2LTxc2wNl59LOtKrHj/\\n/eDGGD1O1O5vyGCRYA6FcPk2zjMicPkncUNpve0MF/hp5PPloqqThVngAafFnRPF\\nmvZ9RGGzYVGlo88G4DsDtZ7Kkr/9gIj8hET2tZDv3X64atGSihGlwH+A895CMWE6\\nmwZ8ieCG0+PXNxHztS1yAYJkq1TXfyexglDYy4fO7zN5QAL0wIzEVZfPjMXgAcb+\\nmJVCDTJSHrf4yBchRpJflEbfZNimAaDGXxkxfsPcjZ8TYRl9oDU6HzSOt7eBNwoW\\n4m8MO16Z5X9u+5+8BuGNedK3uemQyEW8adJ8DgW+hMrVBKhuwF5mTZMCAwEAAaMQ\\nMA4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZLb1wOGQeJjbTVg/\\nfJVYX5JXMUAHAaoAfPLwagbFOxOGf85lKJ+m1pH+1cVYXC4lqVYlPBQGOXfsF3FG\\na2A/lIVR89MZ3Lr+EOCQOLTVc77gwe6/JlmUqPzY/Ki3iFscuO+0DImoSSIK0kg9\\n4xsHn6fqYMIONdugw9xS24+wctDjJNmxU7HrNhdTmWRn9HnhgOHT+7W6PzAgsC/o\\nVg8ZYxJB+SX0NSXCGgvWsGNojsaNR9OmnD5IMnkLL7+0rZLOkGw7id07msTBdE0+\\n1T5VSeoL+N3LOk1DUzk7X2Q/xx7pZ2+LEqgTVBoRN6uDt0On9NQVZJlcxobeMUBO\\nBwqEPA==\\n-----END CERTIFICATE-----\"\n   } ]\n}\n
+      }
+    },
+    68626c66626d6a6461616c616c68696661616a6e6e6f646c6b696c6f656e6763@kiosk-apps.device-local.localhost: {
+      AutoplayAllowed: {
+        level: "mandatory",
+        scope: "user",
+        source: "cloud",
+        value: true
+      },
+      FloatingAccessibilityMenuEnabled: {
+        level: "mandatory",
+        scope: "user",
+        source: "cloud",
+        value: false
+      },
+      OpenNetworkConfiguration: {
+        level: "mandatory",
+        scope: "user",
+        source: "cloud",
+        value: "{\n   \"Certificates\": [ {\n      \"GUID\": \"{2ae6cf1f-626a-4161-92b1-804a0317c1f0}\",\n      \"TrustBits\": [ \"Web\" ],\n      \"Type\": \"Authority\",\n      \"X509\": \"-----BEGIN CERTIFICATE-----\\nMIID5jCCAs6gAwIBAgIICHtF2rfta1UwDQYJKoZIhvcNAQELBQAwgakxCzAJBgNV\\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQHDAlTdW5ueXZhbGUx\\nETAPBgNVBAoMCEZvcnRpbmV0MR4wHAYDVQQLDBVDZXJ0aWZpY2F0ZSBBdXRob3Jp\\ndHkxGTAXBgNVBAMMEEZHMzNFMVQ5MTk5MDAyMzAxIzAhBgkqhkiG9w0BCQEWFHN1\\ncHBvcnRAZm9ydGluZXQuY29tMB4XDTIwMDcwODAzNDgxOFoXDTMwMDcwOTAzNDgx\\nOFowgakxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQH\\nDAlTdW5ueXZhbGUxETAPBgNVBAoMCEZvcnRpbmV0MR4wHAYDVQQLDBVDZXJ0aWZp\\nY2F0ZSBBdXRob3JpdHkxGTAXBgNVBAMMEEZHMzNFMVQ5MTk5MDAyMzAxIzAhBgkq\\nhkiG9w0BCQEWFHN1cHBvcnRAZm9ydGluZXQuY29tMIIBIjANBgkqhkiG9w0BAQEF\\nAAOCAQ8AMIIBCgKCAQEAzxlhk4bfAH9xu7Z/suJd2rV+essrmsntRbDV3WBxQ3a7\\nqAfjDUXRFLY3RDhmeCMJpwgrkJErhRZSN8jNfmu7xtDpGIB5tT6nbh7rfm1Da9JK\\naQU5+J3kSciA03c36yK2I/5isZV9rWsaBxs437w+a9ORfo7ltK4fO2VXxSzHLRZt\\nGIpO/2WRnOmR1dBF7/PzHrum2zzEtH8sqA2uYu2b3G1qbAwSR2l4A63aHW6qgrKz\\nmTcwJVU2kzyKIX1DYTobCWo+tsPOaT6jT+eZBgxWY+Dqf9/m+cDIevjOBd9cyVEu\\nSXEqh6nqvGdjkJXESraEg7aTltS5kiTqB5FWyiDixwIDAQABoxAwDjAMBgNVHRME\\nBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCQtGJRzgFZl7sLPaOrsP+p8T6UbgON\\nbaK5FvKPIHHQl0cxTT0iaDo2V9KACllJvkvalAh1qnRY6GALXC2ebZMPk5o+4DGf\\ncdGntmbb1FP007AcI5WCd+epVlk5zN/9wD2vuB7/2PRLZHJghaUzjCWxMqd/25aM\\nvVQXdzYWzVwv/ED03i/o6DR9zvk+kVVpIZRr/jwSns+EVwT6ITjPh5CRJIuByK7x\\njBAGTqfSiQ7NZ7E6mhUn1TZAd4yBU0Y2/3KgQSzHRwrL3uTpuAhabbtHD4RNtsYb\\n016kRb+hJMN7B1e7vPHXBJ8tQE2uuCmJlmWF3Y+4V6dGUZGU7XF8kQim\\n-----END CERTIFICATE-----\"\n   }, {\n      \"GUID\": \"{73abfc3d-32b2-41c0-a2b6-c3b7aaa673fe}\",\n      \"TrustBits\": [ \"Web\" ],\n      \"Type\": \"Authority\",\n      \"X509\": \"-----BEGIN CERTIFICATE-----\\nMIID8DCCAtigAwIBAgIIAv62XJJhiTIwDQYJKoZIhvcNAQELBQAwga4xCzAJBgNV\\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQHDAlTdW5ueXZhbGUx\\nETAPBgNVBAoMCEZvcnRpbmV0MR4wHAYDVQQLDBVDZXJ0aWZpY2F0ZSBBdXRob3Jp\\ndHkxHjAcBgNVBAMMFUZvcnRpbmV0IFVudHJ1c3RlZCBDQTEjMCEGCSqGSIb3DQEJ\\nARYUc3VwcG9ydEBmb3J0aW5ldC5jb20wHhcNMjAwNzA4MDM0ODE4WhcNMzAwNzA5\\nMDM0ODE4WjCBrjELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExEjAQ\\nBgNVBAcMCVN1bm55dmFsZTERMA8GA1UECgwIRm9ydGluZXQxHjAcBgNVBAsMFUNl\\ncnRpZmljYXRlIEF1dGhvcml0eTEeMBwGA1UEAwwVRm9ydGluZXQgVW50cnVzdGVk\\nIENBMSMwIQYJKoZIhvcNAQkBFhRzdXBwb3J0QGZvcnRpbmV0LmNvbTCCASIwDQYJ\\nKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJp+MuetRKrKO2LTxc2wNl59LOtKrHj/\\n/eDGGD1O1O5vyGCRYA6FcPk2zjMicPkncUNpve0MF/hp5PPloqqThVngAafFnRPF\\nmvZ9RGGzYVGlo88G4DsDtZ7Kkr/9gIj8hET2tZDv3X64atGSihGlwH+A895CMWE6\\nmwZ8ieCG0+PXNxHztS1yAYJkq1TXfyexglDYy4fO7zN5QAL0wIzEVZfPjMXgAcb+\\nmJVCDTJSHrf4yBchRpJflEbfZNimAaDGXxkxfsPcjZ8TYRl9oDU6HzSOt7eBNwoW\\n4m8MO16Z5X9u+5+8BuGNedK3uemQyEW8adJ8DgW+hMrVBKhuwF5mTZMCAwEAAaMQ\\nMA4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZLb1wOGQeJjbTVg/\\nfJVYX5JXMUAHAaoAfPLwagbFOxOGf85lKJ+m1pH+1cVYXC4lqVYlPBQGOXfsF3FG\\na2A/lIVR89MZ3Lr+EOCQOLTVc77gwe6/JlmUqPzY/Ki3iFscuO+0DImoSSIK0kg9\\n4xsHn6fqYMIONdugw9xS24+wctDjJNmxU7HrNhdTmWRn9HnhgOHT+7W6PzAgsC/o\\nVg8ZYxJB+SX0NSXCGgvWsGNojsaNR9OmnD5IMnkLL7+0rZLOkGw7id07msTBdE0+\\n1T5VSeoL+N3LOk1DUzk7X2Q/xx7pZ2+LEqgTVBoRN6uDt0On9NQVZJlcxobeMUBO\\nBwqEPA==\\n-----END CERTIFICATE-----\"\n   } ]\n}\n
+      }
+    },
+    6f6d6b676863626f6f6470696d616f696d646b6d69676f66686a63706d706562@kiosk-apps.device-local.localhost: {
+      AutoplayAllowed: {
+        level: "mandatory",
+        scope: "user",
+        source: "cloud",
+        value: true
+      },
+      FloatingAccessibilityMenuEnabled: {
+        level: "mandatory",
+        scope: "user",
+        source: "cloud",
+        value: false
+      },
+      OpenNetworkConfiguration: {
+        level: "mandatory",
+        scope: "user",
+        source: "cloud",
+        value: "{\n   \"Certificates\": [ {\n      \"GUID\": \"{2ae6cf1f-626a-4161-92b1-804a0317c1f0}\",\n      \"TrustBits\": [ \"Web\" ],\n      \"Type\": \"Authority\",\n      \"X509\": \"-----BEGIN CERTIFICATE-----\\nMIID5jCCAs6gAwIBAgIICHtF2rfta1UwDQYJKoZIhvcNAQELBQAwgakxCzAJBgNV\\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQHDAlTdW5ueXZhbGUx\\nETAPBgNVBAoMCEZvcnRpbmV0MR4wHAYDVQQLDBVDZXJ0aWZpY2F0ZSBBdXRob3Jp\\ndHkxGTAXBgNVBAMMEEZHMzNFMVQ5MTk5MDAyMzAxIzAhBgkqhkiG9w0BCQEWFHN1\\ncHBvcnRAZm9ydGluZXQuY29tMB4XDTIwMDcwODAzNDgxOFoXDTMwMDcwOTAzNDgx\\nOFowgakxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQH\\nDAlTdW5ueXZhbGUxETAPBgNVBAoMCEZvcnRpbmV0MR4wHAYDVQQLDBVDZXJ0aWZp\\nY2F0ZSBBdXRob3JpdHkxGTAXBgNVBAMMEEZHMzNFMVQ5MTk5MDAyMzAxIzAhBgkq\\nhkiG9w0BCQEWFHN1cHBvcnRAZm9ydGluZXQuY29tMIIBIjANBgkqhkiG9w0BAQEF\\nAAOCAQ8AMIIBCgKCAQEAzxlhk4bfAH9xu7Z/suJd2rV+essrmsntRbDV3WBxQ3a7\\nqAfjDUXRFLY3RDhmeCMJpwgrkJErhRZSN8jNfmu7xtDpGIB5tT6nbh7rfm1Da9JK\\naQU5+J3kSciA03c36yK2I/5isZV9rWsaBxs437w+a9ORfo7ltK4fO2VXxSzHLRZt\\nGIpO/2WRnOmR1dBF7/PzHrum2zzEtH8sqA2uYu2b3G1qbAwSR2l4A63aHW6qgrKz\\nmTcwJVU2kzyKIX1DYTobCWo+tsPOaT6jT+eZBgxWY+Dqf9/m+cDIevjOBd9cyVEu\\nSXEqh6nqvGdjkJXESraEg7aTltS5kiTqB5FWyiDixwIDAQABoxAwDjAMBgNVHRME\\nBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCQtGJRzgFZl7sLPaOrsP+p8T6UbgON\\nbaK5FvKPIHHQl0cxTT0iaDo2V9KACllJvkvalAh1qnRY6GALXC2ebZMPk5o+4DGf\\ncdGntmbb1FP007AcI5WCd+epVlk5zN/9wD2vuB7/2PRLZHJghaUzjCWxMqd/25aM\\nvVQXdzYWzVwv/ED03i/o6DR9zvk+kVVpIZRr/jwSns+EVwT6ITjPh5CRJIuByK7x\\njBAGTqfSiQ7NZ7E6mhUn1TZAd4yBU0Y2/3KgQSzHRwrL3uTpuAhabbtHD4RNtsYb\\n016kRb+hJMN7B1e7vPHXBJ8tQE2uuCmJlmWF3Y+4V6dGUZGU7XF8kQim\\n-----END CERTIFICATE-----\"\n   }, {\n      \"GUID\": \"{73abfc3d-32b2-41c0-a2b6-c3b7aaa673fe}\",\n      \"TrustBits\": [ \"Web\" ],\n      \"Type\": \"Authority\",\n      \"X509\": \"-----BEGIN CERTIFICATE-----\\nMIID8DCCAtigAwIBAgIIAv62XJJhiTIwDQYJKoZIhvcNAQELBQAwga4xCzAJBgNV\\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQHDAlTdW5ueXZhbGUx\\nETAPBgNVBAoMCEZvcnRpbmV0MR4wHAYDVQQLDBVDZXJ0aWZpY2F0ZSBBdXRob3Jp\\ndHkxHjAcBgNVBAMMFUZvcnRpbmV0IFVudHJ1c3RlZCBDQTEjMCEGCSqGSIb3DQEJ\\nARYUc3VwcG9ydEBmb3J0aW5ldC5jb20wHhcNMjAwNzA4MDM0ODE4WhcNMzAwNzA5\\nMDM0ODE4WjCBrjELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExEjAQ\\nBgNVBAcMCVN1bm55dmFsZTERMA8GA1UECgwIRm9ydGluZXQxHjAcBgNVBAsMFUNl\\ncnRpZmljYXRlIEF1dGhvcml0eTEeMBwGA1UEAwwVRm9ydGluZXQgVW50cnVzdGVk\\nIENBMSMwIQYJKoZIhvcNAQkBFhRzdXBwb3J0QGZvcnRpbmV0LmNvbTCCASIwDQYJ\\nKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJp+MuetRKrKO2LTxc2wNl59LOtKrHj/\\n/eDGGD1O1O5vyGCRYA6FcPk2zjMicPkncUNpve0MF/hp5PPloqqThVngAafFnRPF\\nmvZ9RGGzYVGlo88G4DsDtZ7Kkr/9gIj8hET2tZDv3X64atGSihGlwH+A895CMWE6\\nmwZ8ieCG0+PXNxHztS1yAYJkq1TXfyexglDYy4fO7zN5QAL0wIzEVZfPjMXgAcb+\\nmJVCDTJSHrf4yBchRpJflEbfZNimAaDGXxkxfsPcjZ8TYRl9oDU6HzSOt7eBNwoW\\n4m8MO16Z5X9u+5+8BuGNedK3uemQyEW8adJ8DgW+hMrVBKhuwF5mTZMCAwEAAaMQ\\nMA4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZLb1wOGQeJjbTVg/\\nfJVYX5JXMUAHAaoAfPLwagbFOxOGf85lKJ+m1pH+1cVYXC4lqVYlPBQGOXfsF3FG\\na2A/lIVR89MZ3Lr+EOCQOLTVc77gwe6/JlmUqPzY/Ki3iFscuO+0DImoSSIK0kg9\\n4xsHn6fqYMIONdugw9xS24+wctDjJNmxU7HrNhdTmWRn9HnhgOHT+7W6PzAgsC/o\\nVg8ZYxJB+SX0NSXCGgvWsGNojsaNR9OmnD5IMnkLL7+0rZLOkGw7id07msTBdE0+\\n1T5VSeoL+N3LOk1DUzk7X2Q/xx7pZ2+LEqgTVBoRN6uDt0On9NQVZJlcxobeMUBO\\nBwqEPA==\\n-----END CERTIFICATE-----\"\n   } ]\n}\n
+      }
+    }
+  },
+  extensionPolicies: {
+    cjpalhdlnbpafiamejdnhcphjbkeiagm: {},
+    ghbmnnjooekpmoecnnnilnnbdlolhkhi: {},
+    hmbjbjdpkobdjplfobhljndfdfdipjhg: {},
+    jnhgefjoahogmkkekdnafldkdgppfehd: {},
+    kbfnbcaeplbcioakkpcpgfkobkghlhen: {},
+    mmeijimgabbpbgpdklnllpncmdofkcpn: {}
+  },
+  loginScreenExtensionPolicies: {},
+  status: {
+    device: {
+      assetId: "X 38214",
+      clientId: "9eb1dbbb-c92c-42e4-aec1-b9e3de658ad6",
+      directoryApiId: "a52c3d4b-3ac1-475a-a98c-8d6cfcfc805e",
+      enterpriseDomainManager: "carmelunified.org",
+      error: false,
+      gaiaId: "105250506097979753968",
+      isOffHoursActive: false,
+      location: "CMS",
+      policiesPushAvailable: false,
+      refreshInterval: "1 day",
+      status: "Policy cache OK",
+      timeSinceLastRefresh: "6 hours ago",
+      username: "kabbott@carmelunified.org"
+    },
+    user: {
+      clientId: "fa20d98e-634d-4ba0-9bfe-d264a3673987",
+      domain: "cusd.me",
+      enterpriseDomainManager: "carmelunified.org",
+      error: false,
+      gaiaId: "102987267100869633515",
+      isAffiliated: false,
+      policiesPushAvailable: false,
+      refreshInterval: "1 day",
+      status: "Policy cache OK",
+      timeSinceLastRefresh: "6 hours ago",
+      username: "hvogelpohl@cusd.me"
+    }
+  }
+}
